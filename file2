@@ -1,0 +1,10 @@
+[   16.538556] ppdev: user-space parallel port driver
+[   16.621943] intel_rapl: no valid rapl domains found in package 0
+[   16.645272] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+[   16.681989] audit: type=1400 audit(1460229370.345:8): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=745 comm="apparmor_parser"
+[   16.681999] audit: type=1400 audit(1460229370.345:9): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=745 comm="apparmor_parser"
+[   16.682004] audit: type=1400 audit(1460229370.345:10): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=745 comm="apparmor_parser"
+[   16.682451] audit: type=1400 audit(1460229370.345:11): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=745 comm="apparmor_parser"
+[   18.752619] floppy0: no floppy controllers found
+[   18.752676] work still pending
+[   19.145791] init: plymouth-upstart-bridge main process (153) killed by TERM signal
