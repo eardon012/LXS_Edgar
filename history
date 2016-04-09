@@ -1,0 +1,349 @@
+    1  exit
+    2  ls
+    3  ls -la
+    4  ls /applications
+    5  mkdir testdirectory
+    6  ls /testdirectory
+    7  locate testdirectory
+    8  pwd
+    9  cd /testdirectory
+   10  cd /testdirectory/home/sysadmin
+   11  ls /home
+   12  ls /sysadmin
+   13  ls /home/sysadmin
+   14  cd /home/sysadmin/testdirectory
+   15  ddf
+   16  df
+   17  free -m
+   18  top
+   19  ifconfig
+   20  lspci
+   21  cat > sample.txt
+   22  cat sample.txt
+   23  nano sample.txt
+   24  mkdir textfiles
+   25  cd /home/sysadmin/testdirectory/textfiles
+   26  cd /~testdirectory
+   27  cd /home/sysadmin/testdirectory/
+   28  ls /home/sysadmin/testdirectory
+   29  mv sample.text /home/sysadmin/testdirectory/textfiles
+   30  mv sample.txt /home/sysadmin/testdirectory/testfiles
+   31  ls
+   32  ls -la
+   33  lsusb
+   34  who
+   35  sudo adduser puttyuser
+   36  exit
+   37  ip -4 addr
+   38  exit
+   39  tree /home/directory_tree
+   40  ls -d */
+   41  tree /home/sysadmin/directory_tree
+   42  top
+   43  ssh puttyuser
+   44  ssh puttyuser@claraval
+   45  exit
+   46  ip -4 addr
+   47  date
+   48  time
+   49  date time
+   50  date -time
+   51  cal
+   52  ls
+   53  ls -l
+   54  pwd
+   55  rmdir testdirectory
+   56  mkdir directory_tree
+   57  cd directory_tree
+   58  mkdir subdir1
+   59  mkdir subdir2
+   60  mkdir subdir3
+   61  rm subdir3
+   62  sudo rm subdir3
+   63  cd subdir1
+   64  cd subdir2
+   65  cd/directory_tree/subdir2
+   66  cd /directory_tree/subdir2
+   67  cd /directory_tree
+   68  cd /home/subdirectory_tree/subdir2
+   69  cd /directory_tree/subdirectory2
+   70  cd /home/directory_tree/subdir2
+   71  cd /sysadmin
+   72  cd /home/sysadmin
+   73  ls -l
+   74  cd /home/sysadmin/testdirectory
+   75  ls -l
+   76  ls
+   77  ls -l
+   78  cd /directory_tree
+   79  cd /home/sysadmin/testdirectory/directory_tree
+   80  ls -l
+   81  pwd
+   82  cd /home/sysadmin/testdirectory/directory_tree
+   83  ls -d */
+   84  cd /textfiles
+   85  cd /home/sysadmin/testdirectory/textfiles
+   86  rm textfiles
+   87  ls -d */
+   88  cd /home/sysadmin
+   89  ls -d */
+   90  cd /home/sysadmin/directory_tree
+   91  ls -d */
+   92  rm /home/sysadmin/directory_tree/subdir3
+   93  cd /subdir4
+   94  /home/sysadmin/directory_tree/subdir4
+   95  cd /subdir1
+   96  rm /home/sysadmin/directory_tree/subdir1
+   97  cd /home/sysadmin/directory_tree/subdir1
+   98  ls -d */
+   99  cd /home/sysadmin/directory_tree/subdir1
+  100  cd /home/sysadmin/directory_tree/subdir2
+  101  ls -d +/
+  102  mkdir subdir3
+  103  cd /home/sysadmin/directory_tree
+  104  rmdir subdir3
+  105  cd /home/sysadmin/directory_tree/subdir1
+  106  cat file9.txt
+  107  cat > file9.txt
+  108  cat > file10.txt
+  109  cat > file11.txt
+  110  cd /home/sysadmin/directory_tree/subdir1/subdir4
+  111  cat > file15.txt
+  112  cat > file16.txt
+  113  cat > file17.txt
+  114  cd /home/sysadmin/directory_tree/subdir2
+  115  cat > file6.txt
+  116  cat > file 7.txt
+  117  cat > file7.txt
+  118  cat > file8.txt
+  119  cd /home/sysadmin/directory_tree/subdir2/subdir3
+  120  cat > file13.txt
+  121  cat > file14.txt
+  122  tree
+  123  sudo apt-get install tree
+  124  tree /home/sysadmin/directory_tree
+  125  cd /directory_tree
+  126  cd /home/sysadmin/directory_tree/
+  127  cat > file1.txt
+  128  cat > file2.txt
+  129  cat > file3.txt
+  130  cat > file4.txt
+  131  cat > file5.txt
+  132  cd /home/sysadmin/directory_tree/subdir2/
+  133  rm file
+  134  tree /home/sysadmin/directory_tree
+  135  ip -4 addr
+  136  exit
+  137  ip -4 addr
+  138  sudo fdisk -l
+  139  cd
+  140  pwd
+  141  cd /
+  142  pwd
+  143  ls -l
+  144  ls
+  145  ls -l
+  146  ls -la
+  147  ls -lah
+  148  man vim
+  149  vim /etc/neworkt/interfaces
+  150  vim /etc/network/interfaces
+  151  ip -4 addr
+  152  ifconfig
+  153  ssh @hptower
+  154  ssh toweradmin@hptower
+  155  sudo poweroff
+  156  l -lah
+  157  pwd
+  158  cd ~/etc/
+  159  id
+  160  sudo adduser l3uk
+  161  id
+  162  sudo adduser l3uk
+  163  sudo adduser normaluser
+  164  id
+  165  l -lah
+  166  cd ..
+  167  l -lah
+  168  cd /home/sysadmin/
+  169  ls -lah
+  170  cd /etc
+  171  vim /etc/shadow
+  172  sudo vim /etc/shadow
+  173  sudo vim /etc/group
+  174  locate skell
+  175  locate skel | grep etc 
+  176  cd etc/skel
+  177  cd /etc/skel
+  178  ls -la
+  179  sudo touch sistema.loco
+  180  echo
+  181  echo "Hola usuario nuevo"
+  182  cat sistema.loco
+  183  sudo vim sistema.loco
+  184  sudo adduser l6uk
+  185  su l6uk -
+  186  su - l6uk
+  187  edgar@lab01-server
+  188  edgar@10.124.18.137
+  189  ssh edgar@10.124.18.137
+  190  ps aux | grep apache
+  191  locate apache
+  192  sudo apt-get apache
+  193  sudo apt-get apache2
+  194  cd
+  195  ip -4 addr
+  196  exit
+  197  wget https://ftp.drupal.org/files/projects/drupal-7.43.tar.gz
+  198  apt-cache search openssh
+  199  sudo apt-get update
+  200  sudo apt-get install mysql-server php5 apache2 php5-mysql
+  201  free -m
+  202  exit
+  203  ls
+  204  pwd
+  205  #tar -xzf drupal-7.43.tar.gz
+  206  sudo su
+  207  exit
+  208  history
+  209  pwd
+  210  ls
+  211  cd ~/directory_tree/
+  212  cat history_20_marzo
+  213  touch history_20_marzo
+  214  ls
+  215  history dmesg > history_20_marzo
+  216  man cat
+  217  man dmesg
+  218  cd
+  219  ls
+  220  ls -la
+  221  cp .bash_history ~/directory_tree/
+  222  cd ~
+  223  cd /directory_tree
+  224  cd directory_tree
+  225  ls
+  226  ls la
+  227  ls -la
+  228  vim .bash_history
+  229  vim /etc/network/interfaces
+  230  exit
+  231  sudo poweroff
+  232  sudo vim /etc/shadow
+  233  id
+  234  sudo vim /etc/group
+  235  ls -l /home
+  236  ls -l /etc/hosts
+  237  ls -l /etc/shadow
+  238  pwd
+  239  ls -la
+  240  cd /testdirectory
+  241  cd testdirectory/
+  242  ls -la
+  243  touch file1 file2 file3 file4
+  244  ls -l
+  245  chmod u+x file1
+  246  ls
+  247  ls -l
+  248  chmod o+wx file2
+  249  ls -l
+  250  chmod g-r file3
+  251  ls -l
+  252  chmod a+rwx file4
+  253  ls -l
+  254  chmdo file{5,6,7,8}
+  255  touch file{5,6,7,8}
+  256  ls -l
+  257  chmod 744 file5
+  258  ls -l
+  259  chmod 667 file6
+  260  ls -l
+  261  chmod 647 file 6
+  262  chmod 647 file6
+  263  ls 
+  264  ls -l
+  265  chmod 614 file7
+  266  ls -l
+  267  chmod 624 file7
+  268  ls -l
+  269  chmod 777 file8
+  270  ls -l
+  271  sudo apt-get update
+  272  exit
+  273  ssh
+  274  ip -4 addr
+  275  pwd
+  276  ls
+  277  ls -lah
+  278  cd ~/directory_tree
+  279  ls
+  280  ls -la
+  281  vim .bash_history
+  282  ip -4 addr
+  283  sudo vim /etc/shadow
+  284  vim .bash_history
+  285  ip -4 addr
+  286  vim .bash_history
+  287  sudo poweroff
+  288  sudo apt-get update
+  289  history
+  290  sudo poweroff
+  291  sudo apt-get mail-utils
+  292  sudo apt-cache search mailutils
+  293  sudo apt-get install mailutils
+  294  ls /va/mails
+  295  echo Hola usuario, soy $USER | mail -s "Prueba de correo" root
+  296  ls /var/mail/
+  297  sudo su -
+  298  tree
+  299  ls -la
+  300  cd
+  301  ls -la
+  302  sudo su -
+  303  sudo apt-get install mysql
+  304  sudo apt-get install mysql-server
+  305  nmap 10.124.18.113
+  306  mysql_secure_installation
+  307  mysql -u root -p
+  308  nmap 10.124.18.113
+  309  sudo poweroff
+  310  ntstat -ltup
+  311  netstat -ltup
+  312  sudo apt-get install openssh server
+  313  netstat -ltun
+  314  sudo apt-get install nmap
+  315  ip -4 addr
+  316  nmap
+  317  nmap 10.124.18.113
+  318  atun
+  319  ss -atun
+  320  sudo apt-get install apache2
+  321  sudo apt-get upgrade
+  322  sudo apt-get update
+  323  nmap 10.124.18.113
+  324  sudo su -
+  325  sudo apt-get git
+  326  sudo apt-get install git
+  327  mkdir LX1_edgar
+  328  cd LX1_edgar
+  329  git init
+  330  ls -l
+  331  histroy > history
+  332  ls -la
+  333  touch file1
+  334  touch file2
+  335  mkdir dir1
+  336  tree
+  337  touch dir1/file3
+  338  tree
+  339  git add history
+  340  git status
+  341  git commit -m "Inicializacion del arbol de desarrollo" 
+  342  git config --global user.mail "eardon012@outlook.com"
+  343  git config --global user.name "Edgar Ardon"
+  344  git status
+  345  git commit -m "Inicializacion del arbol de desarrollo" 
+  346  cat ~/.gitconfig
+  347  tree
+  348  git status
+  349  history > history
